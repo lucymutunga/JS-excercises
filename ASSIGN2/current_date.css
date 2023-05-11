@@ -1,0 +1,22 @@
+// Get current date object
+const currentDate = new Date();
+
+// Get day, month, and year from date object
+const day = currentDate.getDate();
+const month = currentDate.getMonth() + 1; 
+const year = currentDate.getFullYear();
+
+// Format date string in various formats
+const mm_dd_yyyy = `${month}-${day}-${year}`;
+const mm_slash_dd_slash_yyyy = `${month}/${day}/${year}`;
+const dd_mm_yyyy = `${day}-${month}-${year}`;
+const dd_slash_mm_slash_yyyy = `${day}/${month}/${year}`;
+
+// Log formatted dates
+console.log(`mm-dd-yyyy format: ${mm_dd_yyyy}`);
+console.log(`mm/dd/yyyy format: ${mm_slash_dd_slash_yyyy}`);
+console.log(`dd-mm-yyyy format: ${dd_mm_yyyy}`);
+console.log(`dd/mm/yyyy format: ${dd_slash_mm_slash_yyyy}`);
+
+
+

@@ -1,0 +1,12 @@
+// Generate random integer between 1 and 10
+const randomNumber = Math.floor(Math.random() * 10) + 1;
+
+// Prompt user to input a guess number
+const userGuess = parseInt(prompt("Guess a number between 1 and 10"));
+
+// Compare user guess with random number and display message
+if (userGuess === randomNumber) {
+  console.log("Good Work");
+} else {
+  console.log("Not matched");
+}

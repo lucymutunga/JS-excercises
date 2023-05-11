@@ -1,0 +1,16 @@
+// Define two numerical values
+const num1 = 80;
+const num2 = 94;
+
+// Calculate the absolute difference between each value and 100
+const diff1 = Math.abs(100 - num1);
+const diff2 = Math.abs(100 - num2);
+
+// Compare the absolute differences and display the closest value
+if (diff1 < diff2) {
+  console.log(`${num1} is closest to 100`);
+} else if (diff2 < diff1) {
+  console.log(`${num2} is closest to 100`);
+} else {
+  console.log(`${num1} and ${num2} are equally close to 100`);
+}

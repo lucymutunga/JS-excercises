@@ -1,0 +1,5 @@
+const languages = ["kiswahili", "English", "French", "arabic", "chinise"];
+
+for (let i = 0; i < languages.length; i++) {
+  console.log(languages[i]);
+}
